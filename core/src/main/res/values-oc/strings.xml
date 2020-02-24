@@ -68,7 +68,7 @@
   <string name="speech_prompt_text">Parlar per recercar %s</string>
   <string name="local_zims">Aparelh</string>
   <string name="remote_zims">En linha</string>
-  <string name="library" fuzzy="true">Gestion del contengut</string>
+  <string name="library">Gestion del contengut</string>
   <string name="delete_specific_zim_toast">Fichièr suprimit</string>
   <string name="no_files_here">Pas cap de fichièr aicí</string>
   <string name="space_available">Espaci disponible :</string>

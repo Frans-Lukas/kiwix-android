@@ -75,7 +75,7 @@
   <string name="speech_not_supported">Na ndjeni! Pajisja juaj nuk mbulon input përmes të folurës</string>
   <string name="local_zims">Pajisje</string>
   <string name="remote_zims">Në linjë</string>
-  <string name="library">Bibliotekë</string>
+  <string name="library">Merrni Lëndë</string>
   <string name="delete_specific_zim_toast">Kartela u fshi</string>
   <string name="no_files_here">S’ka kartela këtu</string>
   <string name="download_no_space">Hapësirë e pamjaftueshme për shkarkimin e kësaj kartele.</string>
@@ -125,5 +125,5 @@
   <string name="do_not_ask_anymore">Mos pyet më</string>
   <string name="your_languages">Gjuhë të përzgjedhura:</string>
   <string name="other_languages">Gjuhë të tjera:</string>
-  <string name="no_bookmarks">S\’ka Faqerojtës</string>
+  <string name="no_bookmarks">S’ka Faqerojtës</string>
 </resources>

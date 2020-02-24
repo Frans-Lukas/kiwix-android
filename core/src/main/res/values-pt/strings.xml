@@ -84,7 +84,7 @@
   <string name="speech_not_supported">Desculpe! O seu dispositivo não suporta entrada de voz</string>
   <string name="local_zims">Dispositivo</string>
   <string name="remote_zims">Ligado</string>
-  <string name="library">Biblioteca</string>
+  <string name="library">Obter conteúdo</string>
   <string name="delete_specific_zim_toast">Ficheiro apagado</string>
   <string name="no_files_here">Não há ficheiros aqui</string>
   <string name="download_no_space">Espaço insuficiente para o download deste ficheiro.</string>

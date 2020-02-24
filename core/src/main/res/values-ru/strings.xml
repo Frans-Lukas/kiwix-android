@@ -84,7 +84,7 @@
   <string name="speech_not_supported">Приносим извинения! Ваше устройство не поддерживает ввод речи.</string>
   <string name="local_zims">Устройство</string>
   <string name="remote_zims">Онлайн</string>
-  <string name="library">Библиотека</string>
+  <string name="library">Получить Контент</string>
   <string name="delete_specific_zim_toast">Файл удалён</string>
   <string name="no_files_here">Файлы отсутствуют</string>
   <string name="download_no_space">Недостаточно места для загрузки этого файла.</string>

@@ -78,7 +78,7 @@
   <string name="speech_not_supported">Xin lỗi! Thiết bị của bạn không hỗ trợ nhập bằng guọng nói</string>
   <string name="local_zims">Thiết bị</string>
   <string name="remote_zims">Trực tuyến</string>
-  <string name="library">Thư viện</string>
+  <string name="library">Lấy Nội dung</string>
   <string name="delete_specific_zim_toast">Đã xóa tập tin</string>
   <string name="no_files_here">Không có tập tin nào ở đây</string>
   <string name="download_no_space">Không đủ dung lượng trống để tải về tập tin này.</string>
