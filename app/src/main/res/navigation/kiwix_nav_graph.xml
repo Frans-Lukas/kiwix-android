@@ -18,6 +18,7 @@
 
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
   app:startDestination="@id/navigation_library">
   <fragment
     android:id="@+id/navigation_reader"
@@ -27,6 +28,21 @@
       android:name="zimFileUri"
       android:defaultValue=""
       app:argType="string" />
+    <action
+      android:id="@+id/action_navigation_reader_to_historyActivity"
+      app:destination="@id/historyActivity" />
+    <action
+      android:id="@+id/action_navigation_reader_to_bookmarksActivity"
+      app:destination="@id/bookmarksActivity" />
+    <action
+      android:id="@+id/action_navigation_reader_to_helpActivity"
+      app:destination="@id/helpActivity" />
+    <action
+      android:id="@+id/action_navigation_reader_to_kiwixSettingsActivity"
+      app:destination="@id/kiwixSettingsActivity" />
+    <action
+      android:id="@+id/action_navigation_reader_to_zimHostActivity"
+      app:destination="@id/zimHostActivity" />
   </fragment>
 
   <fragment
@@ -45,4 +61,25 @@
     android:id="@+id/navigation_downloads"
     android:name="org.kiwix.kiwixmobile.nav.destination.library.OnlineLibraryFragment"
     android:label="Downloads" />
+  <activity
+    android:id="@+id/bookmarksActivity"
+    android:name="org.kiwix.kiwixmobile.core.page.bookmark.BookmarksActivity"
+    android:label="BookmarksActivity" />
+  <activity
+    android:id="@+id/historyActivity"
+    android:name="org.kiwix.kiwixmobile.core.page.history.HistoryActivity"
+    android:label="HistoryActivity" />
+  <activity
+    android:id="@+id/helpActivity"
+    android:name="org.kiwix.kiwixmobile.core.help.HelpActivity"
+    android:label="HelpActivity" />
+  <activity
+    android:id="@+id/kiwixSettingsActivity"
+    android:name="org.kiwix.kiwixmobile.settings.KiwixSettingsActivity"
+    android:label="KiwixSettingsActivity" />
+  <activity
+    android:id="@+id/zimHostActivity"
+    android:name="org.kiwix.kiwixmobile.webserver.ZimHostActivity"
+    android:label="activity_zim_host"
+    tools:layout="@layout/activity_zim_host" />
 </navigation>
